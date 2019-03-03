@@ -1,0 +1,40 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html id="main">
+  <head>
+    <title id="title">My Wife's Hometown</title>
+  </head>
+  <style>
+    body {
+      background-color: skyblue;
+    }
+    img {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding:1px;
+      border:1px solid #021a40;
+      background-color:#ff0;
+    }
+    h1 {
+      text-align: center;
+    }
+    .image-description {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>Tribute to Chase</h1>
+    <div id="img-div">
+      <img id="image" src="http://pics4.city-data.com/cpicv/vfiles5593.jpg">
+      </img>
+    <p id="img-caption" class="image-description">The Chase water tower.</p>
+    </div>
+<div>
+  <p id="tribute-info">My wife was born in 1976 in Missouri. Fun fact: although born in Missouri, she never lived there. The first part of her childhood was actually spent in Chase, Kansas. Chase is a small town in eastern Kansas with only a few hundred people in it. Any town that my wife comes from must be a great place.</p>
+  </div>
+ <div>
+ <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Chase,_Kansas">Click here to learn more about Chase</a>
+  </body>
+</html>
